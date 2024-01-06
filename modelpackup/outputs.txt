@@ -1,0 +1,528 @@
+# 20230806 Transformer 3 + 3, not using the SIKU embedding dimensions.
+Epoch 0: avg_loss_g: 6.0872
+source S大风起兮云飞扬E , prediction S不日无人不不人E
+source S春雨惊春清谷天E , prediction S不人无处不人人E
+source S路漫漫其修远兮E , prediction S不知无处不人人E
+source S春初早被相思染E , prediction S不日无人不不人E
+source S不见春风不肯开E , prediction S不年无处不人人E
+source S不知细叶谁裁出E , prediction S不日无人不不人E
+source S春江花月夜EPP , prediction S不日无人不不人E
+source S爱在西元前EPP , prediction S不人无处不人人E
+source S打个响指吧EPP , prediction S不知无处不人人E
+source S白日依山尽EPP , prediction S不人无处不人人E
+100%|█████████▉| 26900/26901 [17:53<00:00, 25.05it/s]
+Epoch 1: avg_loss_g: 5.7941
+source S大风起兮云飞扬E , prediction S一上青山一水声E
+source S春雨惊春清谷天E , prediction S一花风雨一春风E
+source S路漫漫其修远兮E , prediction S一头犹有一人来E
+source S春初早被相思染E , prediction S一上花风一月深E
+source S不见春风不肯开E , prediction S一中犹有一人来E
+source S不知细叶谁裁出E , prediction S一上青山一一声E
+source S春江花月夜EPP , prediction S一水花风一月深E
+source S爱在西元前EPP , prediction S一头犹有一人来E
+source S打个响指吧EPP , prediction S一头犹有一人来E
+source S白日依山尽EPP , prediction S一花风雨一春风E
+100%|█████████▉| 26900/26901 [15:42<00:00, 28.55it/s]
+Epoch 2: avg_loss_g: 5.6507
+source S大风起兮云飞扬E , prediction S一日春风不可知E
+source S春雨惊春清谷天E , prediction S山中不见水中春E
+source S路漫漫其修远兮E , prediction S一年何处不知人E
+source S春初早被相思染E , prediction S一日春风不可知E
+source S不见春风不肯开E , prediction S一年无事不知人E
+source S不知细叶谁裁出E , prediction S不是人间不得来E
+source S春江花月夜EPP , prediction S月落山边水上春E
+source S爱在西元前EPP , prediction S一年何处不知人E
+source S打个响指吧EPP , prediction S一年风雨不知来E
+source S白日依山尽EPP , prediction S一年风雨不知人E
+Epoch 3: avg_loss_g: 5.5583
+source S大风起兮云飞扬E , prediction S不是春风不得愁E
+source S春雨惊春清谷天E , prediction S一枝风雨落花开E
+source S路漫漫其修远兮E , prediction S不知人事是人间E
+source S春初早被相思染E , prediction S不是春风不得愁E
+source S不见春风不肯开E , prediction S一时无处更相逢E
+source S不知细叶谁裁出E , prediction S不是春风不得愁E
+source S春江花月夜EPP , prediction S风雨声声夜夜声E
+source S爱在西元前EPP , prediction S不知人事是人间E
+source S打个响指吧EPP , prediction S一枝风雨满江头E
+source S白日依山尽EPP , prediction S一枝风雨满江头E
+
+
+# 202308 Transformer 3 * 3, SIKU Embedding.
+
+Epoch 0: avg_loss_g: 6.0801
+source S大风起兮云飞扬E , prediction S一来何日不人人E
+source S春雨惊春清谷天E , prediction S一来何日不人人E
+source S路漫漫其修远兮E , prediction S一来何日不人人E
+source S春初早被相思染E , prediction S一来何日不人人E
+source S不见春风不肯开E , prediction S一来何日不人人E
+source S不知细叶谁裁出E , prediction S一来何日不人人E
+source S春江花月夜EPP , prediction S一来何日不人人E
+source S爱在西元前EPP , prediction S一来何日不人人E
+source S打个响指吧EPP , prediction S一来何日不人人E
+source S白日依山尽EPP , prediction S一来何日不人人E
+100%|█████████▉| 26900/26901 [16:00<00:00, 28.00it/s]
+Epoch 1: avg_loss_g: 5.8078
+source S大风起兮云飞扬E , prediction S一酒无人不有人E
+source S春雨惊春清谷天E , prediction S一人无处不知人E
+source S路漫漫其修远兮E , prediction S不知无处不知人E
+source S春初早被相思染E , prediction S一酒无人不有人E
+source S不见春风不肯开E , prediction S一人无处不知人E
+source S不知细叶谁裁出E , prediction S一酒无人不有人E
+source S春江花月夜EPP , prediction S一酒无人不有人E
+source S爱在西元前EPP , prediction S一人无处不知人E
+source S打个响指吧EPP , prediction S不是春风不有人E
+source S白日依山尽EPP , prediction S一人无处不知人E
+100%|█████████▉| 26900/26901 [16:07<00:00, 27.79it/s]
+Epoch 2: avg_loss_g: 5.6577
+source S大风起兮云飞扬E , prediction S一夜风风一夜寒E
+source S春雨惊春清谷天E , prediction S江头一月一声声E
+source S路漫漫其修远兮E , prediction S一声无处不能知E
+source S春初早被相思染E , prediction S一夜风风一夜寒E
+source S不见春风不肯开E , prediction S一声无处不知人E
+source S不知细叶谁裁出E , prediction S不是人间一日中E
+source S春江花月夜EPP , prediction S风雨落花寒EEE
+source S爱在西元前EPP , prediction S一声无处不知人E
+source S打个响指吧EPP , prediction S一声风雨一声声E
+source S白日依山尽EPP , prediction S江山水上水中声E
+100%|█████████▉| 26900/26901 [16:12<00:00, 27.65it/s]
+Epoch 3: avg_loss_g: 5.5517
+source S大风起兮云飞扬E , prediction S不得人间不得知E
+source S春雨惊春清谷天E , prediction S江南风雨一枝开E
+source S路漫漫其修远兮E , prediction S不知何处是人间E
+source S春初早被相思染E , prediction S一夜无人不可知E
+source S不见春风不肯开E , prediction S一生无处不能知E
+source S不知细叶谁裁出E , prediction S不得人间不得知E
+source S春江花月夜EPP , prediction S一夜风风满翠微E
+source S爱在西元前EPP , prediction S不知何处是人间E
+source S打个响指吧EPP , prediction S不知何处是人间E
+source S白日依山尽EPP , prediction S江南一日不能知E
+100%|█████████▉| 26900/26901 [16:15<00:00, 27.58it/s]
+Epoch 4: avg_loss_g: 5.5110
+source S大风起兮云飞扬E , prediction S一夜风流一夜声E
+source S春雨惊春清谷天E , prediction S一声无处是春风E
+source S路漫漫其修远兮E , prediction S不见江南一夜来E
+source S春初早被相思染E , prediction S一夜风流一夜声E
+source S不见春风不肯开E , prediction S一声无处是人间E
+source S不知细叶谁裁出E , prediction S一夜风流一夜声E
+source S春江花月夜EPP , prediction S一夜风流一夜声E
+source S爱在西元前EPP , prediction S一杯无处是人间E
+source S打个响指吧EPP , prediction S一声声里一枝春E
+source S白日依山尽EPP , prediction S一声无处是春风E
+100%|█████████▉| 26900/26901 [16:17<00:00, 27.53it/s]
+Epoch 5: avg_loss_g: 5.5465
+source S大风起兮云飞扬E , prediction S一曲风流一片花E
+source S春雨惊春清谷天E , prediction S一声风雨夜声飞E
+source S路漫漫其修远兮E , prediction S一生何处是天涯E
+source S春初早被相思染E , prediction S一曲风流一片云E
+source S不见春风不肯开E , prediction S一生风月不知秋E
+source S不知细叶谁裁出E , prediction S不是山中一日来E
+source S春江花月夜EPP , prediction S一曲风流一夜寒E
+source S爱在西元前EPP , prediction S一声风雨满楼台E
+source S打个响指吧EPP , prediction S一声风雨夜声飞E
+source S白日依山尽EPP , prediction S一声风雨夜声飞E
+100%|█████████▉| 26900/26901 [16:59<00:00, 26.39it/s]
+Epoch 6: avg_loss_g: 5.5767
+source S大风起兮云飞扬E , prediction S不觉人间一夜寒E
+source S春雨惊春清谷天E , prediction S一声风雨满云间E
+source S路漫漫其修远兮E , prediction S不知人事不相知E
+source S春初早被相思染E , prediction S不见人间一日来E
+source S不见春风不肯开E , prediction S不知人事是春风E
+source S不知细叶谁裁出E , prediction S不见人间一日来E
+source S春江花月夜EPP , prediction S风雨满山林EEE
+source S爱在西元前EPP , prediction S江山日月上楼台E
+source S打个响指吧EPP , prediction S不知人事不相逢E
+source S白日依山尽EPP , prediction S江山日月过江城E
+100%|█████████▉| 26900/26901 [16:25<00:00, 27.30it/s]
+Epoch 7: avg_loss_g: 5.5642
+source S大风起兮云飞扬E , prediction S不是人间一日寒E
+source S春雨惊春清谷天E , prediction S一声风雨入寒江E
+source S路漫漫其修远兮E , prediction S不知人事有人情E
+source S春初早被相思染E , prediction S不是人间一日寒E
+source S不见春风不肯开E , prediction S一枝风雨一枝香E
+source S不知细叶谁裁出E , prediction S不是人间一日来E
+source S春江花月夜EPP , prediction S风雨入寒山EEE
+source S爱在西元前EPP , prediction S春风不可寻EEE
+source S打个响指吧EPP , prediction S风流水上天EEE
+source S白日依山尽EPP , prediction S山河一日长EEE
+100%|█████████▉| 26900/26901 [16:16<00:00, 27.55it/s]
+Epoch 8: avg_loss_g: 5.5485
+source S大风起兮云飞扬E , prediction S一笑人间一笑看E
+source S春雨惊春清谷天E , prediction S春风吹雨入江城E
+source S路漫漫其修远兮E , prediction S不知何处是何人E
+source S春初早被相思染E , prediction S一笑人间一笑看E
+source S不见春风不肯开E , prediction S一声相对一声寒E
+source S不知细叶谁裁出E , prediction S一笑人间一笑看E
+source S春江花月夜EPP , prediction S风雨入江边EEE
+source S爱在西元前EPP , prediction S青山一笑一声多E
+source S打个响指吧EPP , prediction S风生雨色香EEE
+source S白日依山尽EPP , prediction S春风不见玉楼台E
+100%|█████████▉| 26900/26901 [16:22<00:00, 27.37it/s]
+Epoch 9: avg_loss_g: 5.5357
+source S大风起兮云飞扬E , prediction S一夜风流一夜寒E
+source S春雨惊春清谷天E , prediction S一枝风雨一枝春E
+source S路漫漫其修远兮E , prediction S不知何处是无人E
+source S春初早被相思染E , prediction S一夜风流一夜寒E
+source S不见春风不肯开E , prediction S一枝风雨一枝春E
+source S不知细叶谁裁出E , prediction S不是春风一夜寒E
+source S春江花月夜EPP , prediction S风雨入江东EEE
+source S爱在西元前EPP , prediction S春风入翠微EEE
+source S打个响指吧EPP , prediction S风吹落花风雨寒E
+source S白日依山尽EPP , prediction S江南一片一声寒E
+100%|█████████▉| 26900/26901 [16:25<00:00, 27.30it/s]
+Epoch 10: avg_loss_g: 5.5217
+source S大风起兮云飞扬E , prediction S一日风流一半开E
+source S春雨惊春清谷天E , prediction S一枝红叶落花枝E
+source S路漫漫其修远兮E , prediction S一生无复一杯中E
+source S春初早被相思染E , prediction S一日风流一半开E
+source S不见春风不肯开E , prediction S一杯无复一杯中E
+source S不知细叶谁裁出E , prediction S一日风流一半开E
+source S春江花月夜EPP , prediction S山色照江湖EEE
+source S爱在西元前EPP , prediction S无人不可知EEE
+source S打个响指吧EPP , prediction S一杯无处不相思E
+source S白日依山尽EPP , prediction S风流不可怜EEE
+100%|█████████▉| 26900/26901 [16:34<00:00, 27.05it/s]
+Epoch 11: avg_loss_g: 5.5088
+source S大风起兮云飞扬E , prediction S一笑春风一笑开E
+source S春雨惊春清谷天E , prediction S一生风雨送春归E
+source S路漫漫其修远兮E , prediction S不知何处是吾家E
+source S春初早被相思染E , prediction S一笑春风一笑开E
+source S不见春风不肯开E , prediction S不知何处是春风E
+source S不知细叶谁裁出E , prediction S一笑春风一笑开E
+source S春江花月夜EPP , prediction S云气自相亲EEE
+source S爱在西元前EPP , prediction S不知人不知EEE
+source S打个响指吧EPP , prediction S水上山林一笑开E
+source S白日依山尽EPP , prediction S人间一笑看EEE
+100%|█████████▉| 26900/26901 [16:29<00:00, 27.18it/s]
+Epoch 12: avg_loss_g: 5.4930
+source S大风起兮云飞扬E , prediction S风雨吹香入翠微E
+source S春雨惊春清谷天E , prediction S风流不到白云间E
+source S路漫漫其修远兮E , prediction S不知何处是人家E
+source S春初早被相思染E , prediction S不见人间一夜长E
+source S不见春风不肯开E , prediction S一生风月不须开E
+source S不知细叶谁裁出E , prediction S不见人间一笑人E
+source S春江花月夜EPP , prediction S风雨满江城EEE
+source S爱在西元前EPP , prediction S风流不到旧山中E
+source S打个响指吧EPP , prediction S风吹吹香入翠微E
+source S白日依山尽EPP , prediction S风流一笑新EEE
+100%|█████████▉| 26900/26901 [16:55<00:00, 26.48it/s]
+Epoch 13: avg_loss_g: 5.4794
+source S大风起兮云飞扬E , prediction S不见春风不可知E
+source S春雨惊春清谷天E , prediction S一枝风雨一枝花E
+source S路漫漫其修远兮E , prediction S不妨闲坐见春风E
+source S春初早被相思染E , prediction S不见春风不可知E
+source S不见春风不肯开E , prediction S一年春色不胜愁E
+source S不知细叶谁裁出E , prediction S不见春风不可知E
+source S春江花月夜EPP , prediction S山色入春深EEE
+source S爱在西元前EPP , prediction S相思不可知EEE
+source S打个响指吧EPP , prediction S一枝风雨到春风E
+source S白日依山尽EPP , prediction S山深日日长EEE
+100%|█████████▉| 26900/26901 [17:16<00:00, 25.95it/s]
+Epoch 14: avg_loss_g: 5.4731
+source S大风起兮云飞扬E , prediction S一笑相逢一笑同E
+source S春雨惊春清谷天E , prediction S一声声里一声声E
+source S路漫漫其修远兮E , prediction S不知何处是前身E
+source S春初早被相思染E , prediction S一笑风流一笑开E
+source S不见春风不肯开E , prediction S不知何处是归期E
+source S不知细叶谁裁出E , prediction S不见山花一笑开E
+source S春江花月夜EPP , prediction S山色入江山EEE
+source S爱在西元前EPP , prediction S谁知此地心EEE
+source S打个响指吧EPP , prediction S山水无人不见人E
+source S白日依山尽EPP , prediction S山寒不见雪中开E
+
+
+# 20230808 transformer 3*3 learned positional encoder, 1024 feedback
+
+Epoch 0: avg_loss_g: 5.9984
+source S大风起兮云飞扬E , prediction S一日无人不得愁E
+source S春雨惊春清谷天E , prediction S一日风光雨不知E
+source S路漫漫其修远兮E , prediction S一笑新诗不得人E
+source S春初早被相思染E , prediction S一日无人不得愁E
+source S不见春风不肯开E , prediction S一日无人不得人E
+source S不知细叶谁裁出E , prediction S一日无人不得愁E
+source S春江花月夜EPP , prediction S风雨入春风EEE
+source S爱在西元前EPP , prediction S不得一年年EEE
+source S打个响指吧EPP , prediction S风雨入青云EEE
+source S白日依山尽EPP , prediction S风雨不知春EEE
+100%|█████████▉| 26900/26901 [16:50<00:00, 26.61it/s]
+Epoch 1: avg_loss_g: 5.5987
+source S大风起兮云飞扬E , prediction S一枝风雨一枝开E
+source S春雨惊春清谷天E , prediction S一枝风雨一枝花E
+source S路漫漫其修远兮E , prediction S不知何处是君王E
+source S春初早被相思染E , prediction S一枝风雨一枝花E
+source S不见春风不肯开E , prediction S一枝风雨一枝花E
+source S不知细叶谁裁出E , prediction S一枝风雨一枝花E
+source S春江花月夜EPP , prediction S山中夜夜深EEE
+source S爱在西元前EPP , prediction S不知人事同EEE
+source S打个响指吧EPP , prediction S春风吹不知EEE
+source S白日依山尽EPP , prediction S春风吹不知EEE
+100%|█████████▉| 26900/26901 [16:52<00:00, 26.58it/s]
+Epoch 2: avg_loss_g: 5.4317
+source S大风起兮云飞扬E , prediction S一笑相逢一笑同E
+source S春雨惊春清谷天E , prediction S一笑相逢一笑同E
+source S路漫漫其修远兮E , prediction S不知何必是君心E
+source S春初早被相思染E , prediction S一笑相逢一笑同E
+source S不见春风不肯开E , prediction S一笑相逢一笑同E
+source S不知细叶谁裁出E , prediction S一笑相逢一笑同E
+source S春江花月夜EPP , prediction S风雨满江城EEE
+source S爱在西元前EPP , prediction S不见白云间EEE
+source S打个响指吧EPP , prediction S风雨落花前EEE
+source S白日依山尽EPP , prediction S山色落花前EEE
+100%|█████████▉| 26900/26901 [17:02<00:00, 26.30it/s]
+Epoch 3: avg_loss_g: 5.3379
+source S大风起兮云飞扬E , prediction S一枝风雨满江流E
+source S春雨惊春清谷天E , prediction S一枝风雨满江楼E
+source S路漫漫其修远兮E , prediction S不知何处是何人E
+source S春初早被相思染E , prediction S一夜长安一夜风E
+source S不见春风不肯开E , prediction S一枝风雨满江楼E
+source S不知细叶谁裁出E , prediction S一笑相逢一笑同E
+source S春江花月夜EPP , prediction S山色入云深EEE
+source S爱在西元前EPP , prediction S不是一时时EEE
+source S打个响指吧EPP , prediction S何人得所思EEE
+source S白日依山尽EPP , prediction S山中一夜深EEE
+100%|█████████▉| 26900/26901 [17:09<00:00, 26.13it/s]
+Epoch 4: avg_loss_g: 5.3081
+source S大风起兮云飞扬E , prediction S一笑新诗一夜香E
+source S春雨惊春清谷天E , prediction S一声风雨到江南E
+source S路漫漫其修远兮E , prediction S不知何处是人间E
+source S春初早被相思染E , prediction S一笑相逢一日春E
+source S不见春风不肯开E , prediction S一生风雨不堪悲E
+source S不知细叶谁裁出E , prediction S一夜无人到此生E
+source S春江花月夜EPP , prediction S风雨夜深深EEE
+source S爱在西元前EPP , prediction S相思独自知EEE
+source S打个响指吧EPP , prediction S山川日日长EEE
+source S白日依山尽EPP , prediction S春风满地秋EEE
+100%|█████████▉| 26900/26901 [17:15<00:00, 25.97it/s]
+Epoch 5: avg_loss_g: 5.3718
+source S大风起兮云飞扬E , prediction S一笑相逢一笑开E
+source S春雨惊春清谷天E , prediction S一声声名在水中E
+source S路漫漫其修远兮E , prediction S不妨风雨到江湖E
+source S春初早被相思染E , prediction S一笑相逢一笑看E
+source S不见春风不肯开E , prediction S一枝不见一枝春E
+source S不知细叶谁裁出E , prediction S不是人间一日闲E
+source S春江花月夜EPP , prediction S寒云入竹林EEE
+source S爱在西元前EPP , prediction S何如一笑同EEE
+source S打个响指吧EPP , prediction S春风满地春EEE
+source S白日依山尽EPP , prediction S春风满地春EEE
+100%|█████████▉| 26900/26901 [17:14<00:00, 25.99it/s]
+Epoch 6: avg_loss_g: 5.3913
+source S大风起兮云飞扬E , prediction S不见人间一点红E
+source S春雨惊春清谷天E , prediction S山川无处有人家E
+source S路漫漫其修远兮E , prediction S不知何处是人间E
+source S春初早被相思染E , prediction S不知何处是归来E
+source S不见春风不肯开E , prediction S不知何处是归来E
+source S不知细叶谁裁出E , prediction S不知何处是归来E
+source S春江花月夜EPP , prediction S山色入云中EEE
+source S爱在西元前EPP , prediction S不见故人来EEE
+source S打个响指吧EPP , prediction S青山不可寻EEE
+source S白日依山尽EPP , prediction S山中夜月明E时E
+
+"D:\Program Files (x86)\Python\Python39\python.exe" E:\development\GitRepository\pythoncodes\PoemGenerator_GAN_RNN\train\trainer.py
+Training on device cuda.
+Starting epoch:7
+  0%|          | 0/26901 [00:00<?, ?it/s]D:\Program Files (x86)\Python\Python39\lib\site-packages\torch\nn\functional.py:4999: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+100%|█████████▉| 26900/26901 [15:48<00:00, 28.36it/s]
+Epoch 7: avg_loss_g: 5.4089
+source S大风起兮云飞扬E , prediction S不是人间一点尘E
+source S春雨惊春清谷天E , prediction S不知何处是春风E
+source S路漫漫其修远兮E , prediction S不知何处是何人E
+source S春初早被相思染E , prediction S不是人间不是春E
+source S不见春风不肯开E , prediction S不知何处是春风E
+source S不知细叶谁裁出E , prediction S不是人间不是春E
+source S春江花月夜EPP , prediction S山色入秋天EEE
+source S爱在西元前EPP , prediction S无人不可寻EEE
+source S打个响指吧EPP , prediction S清风吹不闻EEE
+source S白日依山尽EPP , prediction S春风吹不成EEE
+100%|█████████▉| 26900/26901 [15:48<00:00, 28.36it/s]
+Epoch 8: avg_loss_g: 5.4102
+source S大风起兮云飞扬E , prediction S万里春风入酒杯E
+source S春雨惊春清谷天E , prediction S一声声里夜深闻E
+source S路漫漫其修远兮E , prediction S不知何事更无人E
+source S春初早被相思染E , prediction S不见春风一点愁E
+source S不见春风不肯开E , prediction S不知何处是春风E
+source S不知细叶谁裁出E , prediction S不见春风一点愁E
+source S春江花月夜EPP , prediction S山色夜深深EEE
+source S爱在西元前EPP , prediction S春风满地来EEE
+source S打个响指吧EPP , prediction S春风吹不开EEE
+source S白日依山尽EPP , prediction S山川水上流EEE
+100%|█████████▉| 26900/26901 [16:02<00:00, 27.95it/s]
+Epoch 9: avg_loss_g: 5.4168
+source S大风起兮云飞扬E , prediction S一日清风一日来E
+source S春雨惊春清谷天E , prediction S一片云飞入翠微E
+source S路漫漫其修远兮E , prediction S不妨闲步步步虚名
+source S春初早被相思染E , prediction S不知何处是家山E
+source S不见春风不肯开E , prediction S不知何处是闲人E
+source S不知细叶谁裁出E , prediction S不是人间不是春E
+source S春江花月夜EPP , prediction S山色入山林EEE
+source S爱在西元前EPP , prediction S不觉客愁多EEE
+source S打个响指吧EPP , prediction S山头日月斜EEE
+source S白日依山尽EPP , prediction S山头日月斜EEE
+100%|█████████▉| 26900/26901 [16:05<00:00, 27.86it/s]
+Epoch 10: avg_loss_g: 5.4216
+source S大风起兮云飞扬E , prediction S白发犹能作主人E
+source S春雨惊春清谷天E , prediction S白云深处是闲人E
+source S路漫漫其修远兮E , prediction S不妨风雨到天涯E
+source S春初早被相思染E , prediction S不知谁是此时同E
+source S不见春风不肯开E , prediction S不知谁是此时同E
+source S不知细叶谁裁出E , prediction S不是春风一夜长E
+source S春江花月夜EPP , prediction S山高水自流EEE
+source S爱在西元前EPP , prediction S何处是吾庐EEE
+source S打个响指吧EPP , prediction S山中有几人EEE
+source S白日依山尽EPP , prediction S山中水上天EEE
+100%|█████████▉| 26900/26901 [16:40<00:00, 26.88it/s]
+Epoch 11: avg_loss_g: 5.4287
+source S大风起兮云飞扬E , prediction S一笑相逢一笑同E
+source S春雨惊春清谷天E , prediction S一枝风雨满庭花E
+source S路漫漫其修远兮E , prediction S不知何处是吾庐E
+source S春初早被相思染E , prediction S不用春风一笑人E
+source S不见春风不肯开E , prediction S一枝风雨满庭花E
+source S不知细叶谁裁出E , prediction S不用春风一笑人E
+source S春江花月夜EPP , prediction S春色满城阴EEE
+source S爱在西元前EPP , prediction S清风吹不回EEE
+source S打个响指吧EPP , prediction S清风吹不回EEE
+source S白日依山尽EPP , prediction S山川一望间EEE
+100%|█████████▉| 26900/26901 [16:16<00:00, 27.54it/s]
+Epoch 12: avg_loss_g: 5.4321
+source S大风起兮云飞扬E , prediction S风吹金凤舞春风E
+source S春雨惊春清谷天E , prediction S风吹落日上江楼E
+source S路漫漫其修远兮E , prediction S不觉人间有旧游E
+source S春初早被相思染E , prediction S不觉春风不见人E
+source S不见春风不肯开E , prediction S不知何处有人知E
+source S不知细叶谁裁出E , prediction S不觉春风不见人E
+source S春江花月夜EPP , prediction S春色入秋风EEE
+source S爱在西元前EPP , prediction S春风吹不开EEE
+source S打个响指吧EPP , prediction S春风吹不开EEE
+source S白日依山尽EPP , prediction S春风吹酒杯EEE
+100%|█████████▉| 26900/26901 [16:15<00:00, 27.58it/s]
+Epoch 13: avg_loss_g: 5.4386
+source S大风起兮云飞扬E , prediction S玉树无人不见花E
+source S春雨惊春清谷天E , prediction S小窗风雨夜相思E
+source S路漫漫其修远兮E , prediction S不知身世有何人E
+source S春初早被相思染E , prediction S不见山花不见人E
+source S不见春风不肯开E , prediction S不知何处是何人E
+source S不知细叶谁裁出E , prediction S一夜风流一夜长E
+source S春江花月夜EPP , prediction S山色满山川EEE
+source S爱在西元前EPP , prediction S相思一何长EEE
+source S打个响指吧EPP , prediction S相思一夜长EEE
+source S白日依山尽EPP , prediction S秋风满地秋EEE
+100%|█████████▉| 26900/26901 [16:10<00:00, 27.71it/s]
+Epoch 14: avg_loss_g: 5.4396
+source S大风起兮云飞扬E , prediction S一片寒烟一片云E
+source S春雨惊春清谷天E , prediction S一枝风雨一枝开E
+source S路漫漫其修远兮E , prediction S不得君王不可亲E
+source S春初早被相思染E , prediction S不见青山不可寻E
+source S不见春风不肯开E , prediction S不知何处是无情E
+source S不知细叶谁裁出E , prediction S不见青山不可寻E
+source S春江花月夜EPP , prediction S山川一望间EEE
+source S爱在西元前EPP , prediction S青山不可寻EEE
+source S打个响指吧EPP , prediction S青山几处开EEE
+source S白日依山尽EPP , prediction S寒梅一片春EEE
+100%|█████████▉| 26900/26901 [16:16<00:00, 27.55it/s]
+Epoch 15: avg_loss_g: 5.4423
+source S大风起兮云飞扬E , prediction S不是人间万里人E
+source S春雨惊春清谷天E , prediction S一声声声动水边楼
+source S路漫漫其修远兮E , prediction S不是人间有此身E
+source S春初早被相思染E , prediction S不是人间有几人E
+source S不见春风不肯开E , prediction S不知何处是何人E
+source S不知细叶谁裁出E , prediction S不是人间有几人E
+source S春江花月夜EPP , prediction S风雨夜深寒EEE
+source S爱在西元前EPP , prediction S不是故人来EEE
+source S打个响指吧EPP , prediction S人间有旧游EEE
+source S白日依山尽EPP , prediction S山深水自流EEE
+100%|█████████▉| 26900/26901 [16:16<00:00, 27.54it/s]
+Epoch 16: avg_loss_g: 5.4442
+source S大风起兮云飞扬E , prediction S一日相逢一日新E
+source S春雨惊春清谷天E , prediction S一夜风吹万里秋E
+source S路漫漫其修远兮E , prediction S不是人间不可知E
+source S春初早被相思染E , prediction S一夜寒泉落照中E
+source S不见春风不肯开E , prediction S一生何处不相催E
+source S不知细叶谁裁出E , prediction S不似人间不得来E
+source S春江花月夜EPP , prediction S山色夜相催EEE
+source S爱在西元前EPP , prediction S不是一枝春EEE
+source S打个响指吧EPP , prediction S无人知此心EEE
+source S白日依山尽EPP , prediction S风光入海门EEE
+100%|█████████▉| 26900/26901 [16:21<00:00, 27.41it/s]
+Epoch 17: avg_loss_g: 5.4395
+source S大风起兮云飞扬E , prediction S不是春风一夜愁E
+source S春雨惊春清谷天E , prediction S一曲江风吹不成E
+source S路漫漫其修远兮E , prediction S何必金陵更有诗E
+source S春初早被相思染E , prediction S不用人间一日闲E
+source S不见春风不肯开E , prediction S不知何处是长安E
+source S不知细叶谁裁出E , prediction S不用人间一日闲E
+source S春江花月夜EPP , prediction S江上有余风EEE
+source S爱在西元前EPP , prediction S相逢一笑同EEE
+source S打个响指吧EPP , prediction S何曾更一来EEE
+source S白日依山尽EPP , prediction S江山日自长EEE
+100%|█████████▉| 26900/26901 [16:19<00:00, 27.47it/s]
+Epoch 18: avg_loss_g: 5.4405
+source S大风起兮云飞扬E , prediction S一曲江南万里春E
+source S春雨惊春清谷天E , prediction S一声声入楚天EE
+source S路漫漫其修远兮E , prediction S不是人间有几人E
+source S春初早被相思染E , prediction S不见春风不见人E
+source S不见春风不肯开E , prediction S不知谁是有诗人E
+source S不知细叶谁裁出E , prediction S不见春风不见人E
+source S春江花月夜EPP , prediction S秋色满江城EEE
+source S爱在西元前EPP , prediction S无人得暂闲EEE
+source S打个响指吧EPP , prediction S无人得暂闲EEE
+source S白日依山尽EPP , prediction S青山入楚城EEE
+100%|█████████▉| 26900/26901 [16:22<00:00, 27.38it/s]
+Epoch 19: avg_loss_g: 5.4463
+source S大风起兮云飞扬E , prediction S不得人间万里来E
+source S春雨惊春清谷天E , prediction S一声声里月明中E
+source S路漫漫其修远兮E , prediction S不得人间不用钱E
+source S春初早被相思染E , prediction S不是人间不得知E
+source S不见春风不肯开E , prediction S一枝风雨一枝花E
+source S不知细叶谁裁出E , prediction S不是人间不得知E
+source S春江花月夜EPP , prediction S山雨夜相逢EEE
+source S爱在西元前EPP , prediction S不是一枝梅EEE
+source S打个响指吧EPP , prediction S何妨更不归EEE
+source S白日依山尽EPP , prediction S山川一夜深EEE
+100%|█████████▉| 26900/26901 [16:23<00:00, 27.34it/s]
+Epoch 20: avg_loss_g: 5.4499
+source S大风起兮云飞扬E , prediction S一笑相逢一笑同E
+source S春雨惊春清谷天E , prediction S一杯相对一杯中E
+source S路漫漫其修远兮E , prediction S不见人间有几人E
+source S春初早被相思染E , prediction S不见人间不见人E
+source S不见春风不肯开E , prediction S不知何处是吾乡E
+source S不知细叶谁裁出E , prediction S不见人间不见人E
+source S春江花月夜EPP , prediction S山高树色深EEE
+source S爱在西元前EPP , prediction S归来一片云EEE
+source S打个响指吧EPP , prediction S无人知此心EEE
+source S白日依山尽EPP , prediction S山川带夕阳EEE
+100%|█████████▉| 26900/26901 [16:26<00:00, 27.28it/s]
+Epoch 21: avg_loss_g: 5.4503
+source S大风起兮云飞扬E , prediction S一片云山万里心E
+source S春雨惊春清谷天E , prediction S一声声断断雁声中
+source S路漫漫其修远兮E , prediction S不知何日有高风E
+source S春初早被相思染E , prediction S不见人间一梦中E
+source S不见春风不肯开E , prediction S一声声里断肠声E
+source S不知细叶谁裁出E , prediction S不见人间一梦中E
+source S春江花月夜EPP , prediction S山色隔城闻EEE
+source S爱在西元前EPP , prediction S应无一日留EEE
+source S打个响指吧EPP , prediction S何人得自知EEE
+source S白日依山尽EPP , prediction S山村雨露深EEE
+100%|█████████▉| 26900/26901 [17:29<00:00, 25.63it/s]
+Epoch 22: avg_loss_g: 5.4520
+source S大风起兮云飞扬E , prediction S一片清光照玉除E
+source S春雨惊春清谷天E , prediction S一声声里夜来声E
+source S路漫漫其修远兮E , prediction S不得君王不得知E
+source S春初早被相思染E , prediction S不知何处是何人E
+source S不见春风不肯开E , prediction S不知何处是何人E
+source S不知细叶谁裁出E , prediction S不见春风不可寻E
+source S春江花月夜EPP , prediction S春风动客愁EEE
+source S爱在西元前EPP , prediction S不见白云飞EEE
+source S打个响指吧EPP , prediction S人生不可寻EEE
+source S白日依山尽EPP , prediction S春风动客愁EEE
+100%|█████████▉| 26900/26901 [16:27<00:00, 27.25it/s]
+Epoch 23: avg_loss_g: 5.4533
+source S大风起兮云飞扬E , prediction S一夜清风一夜秋E
+source S春雨惊春清谷天E , prediction S一声声里送春归E
+source S路漫漫其修远兮E , prediction S不知何处是君家E
+source S春初早被相思染E , prediction S不知何处是真人E
+source S不见春风不肯开E , prediction S一枝红叶满江风E
+source S不知细叶谁裁出E , prediction S不是当年一夜看E
+source S春江花月夜EPP , prediction S山水落寒山EEE
+source S爱在西元前EPP , prediction S相思一夜长EEE
+source S打个响指吧EPP , prediction S清风吹不开EEE
+source S白日依山尽EPP , prediction S山边日日长EEE
+
